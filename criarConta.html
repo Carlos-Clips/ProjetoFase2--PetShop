@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conta</title>
+    <link rel="shortcut icon" href="imagens/logo petlov.jpg" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="conta.css">
+    <link href='https://fonts.googleapis.com/css?family=Nerko One' rel='stylesheet'>
+</head>
+
+<body class="formulario_top">
+    <header class="cabecalho">
+        <nav class="cabecalho_menu">
+            <div><a href="index.html" target="_self"><img src="imagens/logo petlov.jpg" alt=""></a></div>
+        </nav>
+    </header>
+    <main class="menu_cadastro">
+        <div class="cadastro_subtilo">
+            <h1 class="h1_titulo">Criar uma conta é rápido,fácil e gratuito!</h1>
+            <h2>Com sua conta cadastrada, você têm acesso a ofertas exclusivas, e controle de seus pedidos e serviços solicitados!</h2>
+        </div>
+        <div class="formulario ">
+            <form action="https://formsubmit.co/arteng74@gmail.com" method="POST" class="formas_conta">
+                <fieldset>
+                    <legend>Dados Pessoais</legend>
+                    <label>Nome:</label>
+                    <input type="text" name="Nome" placeholder="Nome completo" class="class_input_name" required>
+                    <br><br>
+                    <label>CPF:</label>
+                    <input type="text" name="CPF" placeholder="Digite o CPF" pattern="[0-9]{11}" required>
+                    <label>Data de Nascimento:</label>
+                    <input type="text" name="Nascimento" placeholder="DDMMAAAA" pattern="[0-9]{8}" required>
+                    <label>Masculino</label>
+                    <input type="radio" value="masculino">
+                    <label>Feminino</label>
+                    <input type="radio" value="feminino">
+                    <br><br>
+                    <label>Estado Civil:</label>
+                    <select name="EstadoCivil">
+                        <option value="solteiro">Solteiro(a)</option>
+                        <option value="casado">Casado(a)</option>
+                        <option value="divorciado">Divorciado(a)</option>
+                        <option value="viuvo">Viuvo(a)</option>
+                        <option value="união estável">União Estável</option>
+                        <option value="outro">Outros</option>
+                    </select>
+                
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Endereço</legend>
+                    <label>Logradouro:</label>
+                    <input type="text" name="logradouro" placeholder="Nome da rua" required>
+                    <label>Número:</label>
+                    <input type="text" name="numero" placeholder="Número" required>
+                    <label>Complemento:</label>
+                    <input type="text" name="complemento" placeholder="Apto, Bloco, Prédio">
+                    <br>
+                    <br>
+                    <label>Estado:</label>
+                    <select name="estado">
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="GO">Goias</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RR">Roraima</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergie</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+                    <label>Cidade:</label>
+                    <input type="text" name="cidade" placeholder="Informe a cidade" required>
+                </fieldset>
+                <br>
+                <fieldset>
+                    <legend>Dados do Pet</legend>
+                    <label>Nome do pet:</label>
+                    <input type="text" name="nomepet" placeholder="Nome do pet" required>
+                    <label>Raça:</label>
+                    <input type="text" name="raça" placeholder="Informe a raça" required>
+                    <label>Data de nascimento:</label>
+                    <input type="text" name="nascimento_pet" placeholder="DDMMAAAA" pattern="[0-9]{8}" required>
+                    <label>Sexo:</label>
+                    <select name="sexopet">
+                        <option value="pet_macho">Macho</option>
+                        <option value="pet_femea">Fêmea</option>
+                    </select>
+                    <label>Temperamento:</label>
+                    <select name="temppet">
+                        <option value="pet_calmo">Calmo</option>
+                        <option value="pet_bravo">Bravo</option>
+                    </select>
+                </fieldset>
+                <br><br>
+                <center>
+                    <input class="class_botao_enviar" type="submit">
+                </center>
+                <br><br>
+                
+            </form>
+        </div>
+
+        <div class="formulario_email">
+            <form action="https://formsubmit.co/arteng74@gmail.com" method="POST" class="formas_conta">
+                <fieldset>
+                    <legend>Dados cadastrais</legend>
+                    <label>Email:</label>
+                    <input type="text" name="Email" placeholder="Digite o seu Email" class="class_input_name" required>
+                    <br><br>
+                    <label>Senha:</label>
+                    <input type="text" name="Senha" placeholder="Digite sua Senha" class="class_input_name" required>
+                    <br><br>
+                    <label>Confirme sua senha:</label>
+                    <input type="text" name="Senha" placeholder="Confirme sua Senha" class="class_input_name" required>
+                    <br><br>
+                    <center><input class="class_botao_enviar_email" type="submit"></center>
+                    <br><br>
+            </form>
+        </div>
+        
+    </main>
+    
+    <footer class="rodape">
+        <p>Desenvolvido por Carlos.</p>
+        <P>Instatram</P>
+        <p>Contato</p>
+        <a href="#" style="color:white; text-decoration: none;">Voltar para o topo</a>
+    </footer>
+</body>
+
+</html>

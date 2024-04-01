@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.cabecalho{
+    padding: 2% 5% 0% 10%;
+    align-items: flex-end;
+
+}
+
+.cabecalho_menu_links{
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+
+.cabecalho_menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+
+.formas_conta {
+    font-weight: bold;
+    font-family: 'Nerko One';font-size: 14px;
+    font-size: 14px;
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    text-align: center;
+    
+  }
+  
+  
+  
+  .class_input_name {
+    width: 300px;
+  }
+  
+  .class_botao_enviar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 30px;
+    color: #FFFFFF;
+    background-color: #076AA1;
+    border: 2px solid #076AA1;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  .class_botao_enviar:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+  }
+  .class_botao_enviar_email{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 30px;
+    color: #FFFFFF;
+    background-color: #076AA1;
+    border: 2px solid #076AA1;
+    border-radius: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    gap: 14px;
+  }
+
+  .class_botao_enviar_email:hover{
+    transition: 0.5s;
+    transform: scale(1.1);
+  }
+  .formulario {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    justify-content: start;
+    gap: 15px;
+    width: 700px;
+    height: 600px;
+    text-align: start;
+    border-radius: 8px;
+    font-size: 30px;
+    font-weight: 6;
+    padding: auto;
+    text-decoration: none;
+    color: #076AA1;
+    float: left;
+    background: #FFFFFF;
+    border: 2px solid #076AA1;
+    box-shadow: 0px 1px #000000;
+  
+  }
+  .formulario_email{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px;
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 30px;
+    font-weight: 6;
+    padding: auto;
+    text-decoration: none;
+    color: #076AA1;
+    float: left;
+    background: #FFFFFF;
+    border: 2px solid #076AA1;
+    box-shadow: 0px 1px #000000;
+
+  }
+  
+  .menu_cadastro{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+  }
+  
+  .formulario_top{
+
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Define que o corpo da página ocupa pelo menos 100% da altura da viewport */
+  }
+  .cadastro_subtilo{
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    padding: 10px;
+    font-family: 'Nerko One';font-size: 40px;
+  }
+  .h1_titulo{
+    font-family: 'Nerko One';font-size: 50px;
+    color: #076AA1;
+  }
+
+.rodape{
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+ 

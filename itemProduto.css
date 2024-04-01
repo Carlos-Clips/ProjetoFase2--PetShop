@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  
+}
+.cabecalho{
+  padding: 2% 5% 0% 10%;
+}
+
+.cabecalho_menu_links{
+display: flex;
+align-items: center;
+gap: 80px;
+}
+
+
+.cabecalho_menu{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+gap: 50px;
+}
+.apresentacao_produtos{
+padding: 100px 0;
+display: flex;
+flex-direction: column;
+margin-left: 190px;
+margin-right: 190px;
+gap: 40px;
+
+
+}
+h1{
+  display: flex;
+  flex-direction: column;
+  max-height: 500px;
+  max-width: 780px;
+  padding: 10px;
+  font-family: 'Nerko One';font-size: 34px;
+  color: #076AA1;
+ 
+  
+}
+
+.produto_inf{
+  display: flex;
+  align-items: start;
+  flex-direction: row;
+  margin: 100px;
+  margin-top: 100px;
+  gap: 200px;
+}
+
+.descricao{
+  margin-top: 100px;
+  margin-left:200px;
+  margin-right: 200px;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  
+}
+
+.card-text{
+  font-family: 'Nerko One';
+  font-size: 35px;
+  text-align: center;
+  
+  
+}
+.card{
+  border:none
+}
+
+.apresentacao_conteudo_botums{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  width: 400px;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 30px;
+  font-weight: 6;
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #076AA1;
+  float: left;
+  background: #FFFFFF;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0px 1px #000000;
+
+}
+
+.rodape{
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin: auto;
+}
+
+.img_racao{
+  width: 300px;
+  height: 350px;
+}
+
+.img_racao:hover{
+  transition: 0.5s;
+  transform: scale(1.1);
+}

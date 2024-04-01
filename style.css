@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.cabecalho{
+    padding: 2% 5% 0% 10%;
+    align-items: flex-end;
+
+}
+
+.cabecalho_menu_links{
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+
+
+.cabecalho_menu{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+}
+.apresentacao_conteudo{
+  padding: 100px 0;
+  display: flex;
+ 
+  justify-content: center;
+  gap: 40px;
+  text-decoration:none;
+}
+.apresentacao_conteudo_botums{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  width: 400px;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 30px;
+  font-weight: 6;
+  padding: 10px 10px;
+  text-decoration: none;
+  color: #076AA1;
+  float: left;
+  background: #FFFFFF;
+  border: 1px solid #e0e0e0;
+  box-shadow: 0px 1px #000000;
+
+}
+.rodape{
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.apresentacao_conteudo_botums:hover{
+  background-color: #cccccc;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.apresentacao_conteudo_ofertas{
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px;
+  margin-bottom: 100px;
+  
+  
+}
+
+.subtitulo_apresentacao{
+ display: flex;
+ justify-content: center;
+ gap: 50px;
+ font-family: 'Nerko One';font-size: 50px;
+ 
+}
+.card:hover{
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+.card-text{
+  font-family: 'Nerko One';
+  font-size: 35px;
+  text-align: center;
+}
+.card{
+ border-bottom: 1px solid #000000;
+ border-left: none;
+ border-right: none;
+}
+
+body{
+  font-family: 'Nerko One';font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Define que o corpo da página ocupa pelo menos 100% da altura da viewport */
+}
+
+
+a {
+  text-decoration: none;
+  color: #076AA1;
+}
+
+.imgg:hover{
+  transition: 0.5s;
+  transform: scale(1.1);
+}
